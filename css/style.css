@@ -1,0 +1,28 @@
+/*
+  modifie la page
+*/
+.container{
+    width: 400px;
+}
+
+
+/*
+  modifie tout le bloc de la calculatrice
+*/
+.form-control{
+    height: 65px;
+}
+
+/*
+  modifier la disposition des boutons
+*/
+.btn{
+    width: 84px;
+    height: 60px;
+    margin: 5px;
+}
+
+#titre{
+    margin-top: 15px;
+    text-align: center;
+}
