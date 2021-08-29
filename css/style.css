@@ -1,13 +1,17 @@
+
+.container{
+    width: 400px;
+    background: #4a5b6e;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
 /*
   modifie la page
 */
-.container{
-    width: 400px;
-    background: #4a5b6e;justify-content: center;
-    padding: 10px;
-}
-
-
 body{
     /* mettre un coloration dégratée */
     background: linear-gradient(to right, #90a858, #d4afe6);
@@ -19,24 +23,16 @@ body{
     align-items: center;
 }
 
-
-/*
-  modifie tout le bloc de la calculatrice
-*/
-.form-control{
-    height: 65px;
-}
-
-/*
-  modifier la disposition des boutons
-*/
 .btn{
-    width: 84px;
-    height: 60px;
-    margin: 5px;
+    width: 95%;
+    margin: auto;
 }
 
-#titre{
-    margin-top: 15px;
+.row{
+    display: flex;
     text-align: center;
+}
+
+.col{
+    padding: 1px;
 }
