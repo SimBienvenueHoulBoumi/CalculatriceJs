@@ -6,12 +6,20 @@ body{
     background: linear-gradient(to right, #90a858, #d4afe6);
 }
 
+
+/*  */
+button{
+    margin: 1.5px;
+}
+
 .container{
-    width: 425px;
+    width: 450px;
     margin-top: 95px;
 }
 
-input{
-    height: 100px;
+#ecran{
+    height: 95px;
     border-radius: 5px;
+    margin: 2px;
+    width: 68%;
 }
