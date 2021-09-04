@@ -1,0 +1,25 @@
+/*
+  modifie la page
+*/
+body{
+    /* mettre un coloration dégratée */
+    background: linear-gradient(to right, #90a858, #d4afe6);
+}
+
+
+/*  */
+button{
+    margin: 1.5px;
+}
+
+.container{
+    width: 450px;
+    margin-top: 95px;
+}
+
+#ecran{
+    height: 95px;
+    border-radius: 5px;
+    margin: 2px;
+    width: 68%;
+}
